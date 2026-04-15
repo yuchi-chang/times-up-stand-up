@@ -1,0 +1,20 @@
+{
+  "name": "times-up-stand-up",
+  "version": "1.0.0",
+  "description": "Stand up reminder desktop app",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "tauri": "tauri"
+  },
+  "dependencies": {
+    "@tauri-apps/api": "^2",
+    "@tauri-apps/plugin-dialog": "^2",
+    "@tauri-apps/plugin-positioner": "^2",
+    "@tauri-apps/plugin-store": "^2"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^2.10.1",
+    "vite": "^6"
+  }
+}
